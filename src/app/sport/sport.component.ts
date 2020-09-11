@@ -9,6 +9,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class SportComponent implements OnInit {
   sports :any;
+  title = "Welcome To Egypt Sport News";
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,

@@ -9,6 +9,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class BusinesComponent implements OnInit {
   busines:any;
+  title= "Welcome To Egypt busines News";
   constructor(private businesSer:BusinesService) { }
   customOptions: OwlOptions = {
     loop: true,
