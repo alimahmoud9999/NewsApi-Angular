@@ -1,0 +1,84 @@
+
+.slide .img{
+    height:300px !important;
+    width: 100%;
+  }
+  .slide h5{
+  color:red;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  }
+  .slide span{
+    text-align: right;
+    font-size: 16px;
+  }
+  .box-sport-news{
+    margin-top: 60px;
+  }
+  .box-sport-news .head-text{
+    color: #666;
+    text-align: center;
+    color: #666;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  }
+  .box-sport-news .head-text:after{
+    content: "";
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 5px;
+    bottom: -16px;
+    left: 21%;
+    background-color: red;
+  }
+  .box-sport-news .box{
+    margin-bottom: 30px;
+    height: 400px;
+    box-shadow:7px 5px 17px rgba(64, 62, 62, 0.5);
+    position: relative;
+  }
+  .box-sport-news .box:hover{
+    box-shadow:0px 0px 0px rgba(64, 62, 62, 0.5);
+    transition: all ease-in-out .3s;
+  }
+  .box-sport-news .box img{
+    width: 100%;
+    height: 300px;
+  }
+  .box-sport-news .box .title{
+    font-size: 18px;
+    color: #333;
+    padding: 15px 5px;
+  }
+  .box-sport-news span{
+    font-size:10px;
+    position: absolute;
+    right: 8px;
+    bottom: 11px;
+
+  }
+  .home{
+    position: fixed;
+    left: -67px;
+    top: 50%;
+    border: 2px solid #bfbfbf;
+    padding: 15px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index:9999;
+    transition: all ease-in-out .6s;
+  }
+  .home img{
+    width: 30px;
+    margin: -3px 0px 0 10px;
+  }
+  .home:hover{
+    left: 0;
+    transition: all ease-in-out .6s;
+  }
+

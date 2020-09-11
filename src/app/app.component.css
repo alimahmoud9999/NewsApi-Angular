@@ -1,0 +1,12 @@
+.up{
+  position: fixed;
+bottom: 12px;
+right: 19px;
+font-size: 25px;
+font-weight: bolder;
+background-color: #fff;
+border: 5px solid #ee1414;
+line-height: 30px;
+transition: all ease-in-out .3s;
+}
+

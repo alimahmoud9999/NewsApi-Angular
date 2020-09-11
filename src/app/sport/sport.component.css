@@ -61,4 +61,24 @@ position: relative;
   bottom: 11px;
 
 }
+.home{
+  position: fixed;
+  left: -67px;
+  top: 50%;
+  border: 2px solid #bfbfbf;
+  padding: 15px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  z-index:9999;
+  transition: all ease-in-out .6s;
+}
+.home img{
+  width: 30px;
+  margin: -3px 0px 0 10px;
+}
+.home:hover{
+  left: 0;
+  transition: all ease-in-out .6s;
+}
 

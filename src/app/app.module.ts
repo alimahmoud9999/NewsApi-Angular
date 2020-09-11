@@ -12,12 +12,18 @@ import { SportService } from './services/sport.service';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
+import { BusinesComponent } from './busines/busines.component';
+import { HealthComponent } from './health/health.component';
+import { TechnologyComponent } from './technology/technology.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SportComponent,
+    BusinesComponent,
+    HealthComponent,
+    TechnologyComponent,
 
   ],
   imports: [

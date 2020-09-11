@@ -18,10 +18,18 @@
       <div class="col-lg-3 col-md-4"  *ngFor="let spor of sports">
         <div class="box">
           <img [src]="spor.urlToImage" [alt]="spor.urlToImage">
-        <h5 class="title text-right">{{spor.title | slice:0:40}}</h5>
+        <h5 class="title text-right">{{spor.title | slice:0:40}}
+          <a [href]="spor.url" target="_blank">المزيد</a>
+        </h5>
+
         <span>{{spor.publishedAt | slice:0:10}}</span>
         </div>
       </div>
     </div>
   </div>
 </div>
+<a class="home" routerLink="/">
+  home
+  <img src="../../assets/img/home-icon.png" alt="" srcset="">
+
+</a>

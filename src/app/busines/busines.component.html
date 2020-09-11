@@ -1,0 +1,35 @@
+<owl-carousel-o [options]="customOptions">
+  <ng-container *ngFor="let bus of busines">
+    <ng-template carouselSlide [id]="bus.id">
+      <div class="slide">
+        <img class="img" [src]="bus.urlToImage" >
+        <h5>{{bus.title | slice:1:60}}</h5>
+      </div>
+    </ng-template>
+  </ng-container>
+</owl-carousel-o>
+
+<div class="container">
+<div class="box-sport-news">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="head-text"> Welcome To Egypt busines News</h1>
+    </div>
+    <div class="col-lg-3 col-md-4"  *ngFor="let bus of busines">
+      <div class="box">
+        <img [src]="bus.urlToImage" [alt]="bus.urlToImage">
+      <h5 class="title text-right">{{bus.title | slice:0:40}}
+        <a [href]="bus.url" target="_blank">المزيد</a>
+      </h5>
+
+      <span>{{bus.publishedAt | slice:0:10}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<a class="home" routerLink="/">
+home
+<img src="../../assets/img/home-icon.png" alt="" srcset="">
+
+</a>
