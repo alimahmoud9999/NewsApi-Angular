@@ -32,8 +32,7 @@ import { TechnologyComponent } from './technology/technology.component';
     AppRoutingModule,
     HttpClientModule,
     CarouselModule,
-    BrowserAnimationsModule
-
+    BrowserAnimationsModule,
   ],
   providers: [SportService],
   bootstrap: [AppComponent]

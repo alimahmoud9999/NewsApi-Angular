@@ -8,10 +8,10 @@ import { TechnologyComponent } from './technology/technology.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
-  {path:'sport',component:SportComponent},
-  {path:'busines',component:BusinesComponent},
-  {path:'health',component:HealthComponent},
-  {path:'tecnolgy',component:TechnologyComponent}
+  {path:'sport',component:SportComponent,data:{animation:'isRight'}},
+  {path:'busines',component:BusinesComponent,data:{animation:'isRight'}},
+  {path:'health',component:HealthComponent,data:{animation:'isRight'}},
+  {path:'tecnolgy',component:TechnologyComponent,data:{animation:'isRight'}}
 ]
 
 @NgModule({
